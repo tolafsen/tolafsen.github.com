@@ -1,0 +1,10 @@
+body {
+	font-family: Verdana, Arial;
+}
+#main-area {
+	display: block;
+	width: 600px; 
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
