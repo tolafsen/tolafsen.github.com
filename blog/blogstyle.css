@@ -46,7 +46,7 @@ table {
 /*above is all from list provided online 
 below is all what I provided*/
 
-h1 {
+h1, h2 {
 	font: 26px 'LeagueGothicRegular', Arial, sans-serif;
 	text-transform:uppercase;
 }
