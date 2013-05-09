@@ -48,7 +48,6 @@ below is all what I provided*/
 body {
 	text-align: center;
 	background-color: white;
-	font-family: 'Swanky and Moo Moo', cursive;
 }
 header {
 	background-image: url(images/beans.jpg);
@@ -60,7 +59,6 @@ header h1 span {
 }
 header nav li {
 	display: inline;
-	font-family: 'Swanky and Moo Moo', cursive;
 }
 a {
 	text-decoration: none;
@@ -118,8 +116,5 @@ div {
 	clear: both;
 	color: white
 }
-p {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400px;
-}
+
 
