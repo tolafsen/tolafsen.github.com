@@ -48,19 +48,19 @@ below is all what I provided*/
 body {
 	text-align: center;
 	background-color: white;
-	font-family: georgia;
+	font-family: 'Swanky and Moo Moo', cursive;
 }
 header {
 	background-image: url(images/beans.jpg);
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
-#titlewords {
+header h1 span {
 	display: none;
 }
-#mainnav li {
+header nav li {
 	display: inline;
-	font-family: georgia;
+	font-family: 'Swanky and Moo Moo', cursive;
 }
 a {
 	text-decoration: none;
@@ -91,7 +91,7 @@ article {
 }
 footer {
 	background-color: rgb(34, 20, 13);
-	clear: both;
+	
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -111,5 +111,15 @@ p {
 
 div {
 	padding-left: 30px;
+}
+
+.layout-clr:after {
+	content: ".";
+	clear: both;
+	color: white
+}
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400px;
 }
 
