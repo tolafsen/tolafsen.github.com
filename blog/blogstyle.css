@@ -54,3 +54,20 @@ h1, h2 {
 body {
 	font: 12px Arial;
 }
+
+header nav li {
+	display: inline; 
+	font-weight: bold;
+}
+
+aside nav li {
+	list-style: none;
+	font-weight: bold;
+}
+header {
+	border-bottom: solid;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
