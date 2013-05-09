@@ -47,6 +47,10 @@ table {
 below is all what I provided*/
 
 h1 {
-	font: 18px/27px 'LeagueGothicRegular', Arial, sans-serif;
+	font: 26px 'LeagueGothicRegular', Arial, sans-serif;
 	text-transform:uppercase;
+}
+
+body {
+	font: 12px Arial;
 }
