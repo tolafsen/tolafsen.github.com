@@ -1,0 +1,63 @@
+#contentwrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1000px;
+	background-color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* do not use the star above, as it is universal and can break things. 
+Bad practice, but works for this. Do not use for inherited text. */
+header {
+	background-color: red;
+}
+
+nav {
+	background-color: orange;
+}
+
+nav li {
+	display: inline-block;
+	word-spacing: 150%;
+}
+section {
+	background-color: green;
+	padding: 1em;
+}
+footer {
+	background-color: yellow;
+}
+h1 {
+	background-color: blue;
+}
+
+
+@media screen and (min-width: 500px) {
+	#contentdiv {
+		width: 75%;
+		float: right;
+	}
+	nav {
+		float: left;
+		line-height: 150%;
+		width: 25%;
+	}
+	nav li {
+		display: block;
+	}
+	section {
+		margin:0;
+		border: none;
+		background-color: cyan;
+		width: 33.3333333333%;
+		float:left;
+		vertical-align: top;
+	}
+
+	footer {
+		clear:both;
+	}
+}
+
