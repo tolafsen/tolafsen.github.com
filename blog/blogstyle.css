@@ -46,13 +46,31 @@ table {
 /*above is all from list provided online 
 below is all what I provided*/
 
-h1, h2 {
-	font: 26px 'LeagueGothicRegular', Arial, sans-serif;
-	text-transform:uppercase;
-}
-
 body {
 	font: 12px Arial;
+}
+
+#contentwrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 750px;
+}
+
+h1 {
+	font: 80px 'LeagueGothicRegular', Arial, sans-serif;
+	text-transform:uppercase;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul {
+	margin: 0;
+	
 }
 
 header nav li {
@@ -60,17 +78,66 @@ header nav li {
 	font-weight: bold;
 }
 
-aside nav li {
-	list-style: none;
-	font-weight: bold;
-}
 header {
 	border-bottom: solid;
+	margin-bottom: 25px;
 }
+
+.clear { 
+	clear: both;
+}
+
 a {
 	text-decoration: none;
 	color: black;
 }
+
+
+section {
+	width: 66%;
+	float: right;
+}
+aside {
+	float: left;
+	line-height: 150%;
+	width: 25%;
+	padding-right: 8%;
+}
+aside ol {
+	padding: 0;
+	margin: 0;
+}
+aside nav li {
+	display: block;
+	list-style: none;
+	font-weight: bold;
+}
+article {
+	margin:0;
+	border: none;
+	width: 100%;
+	float:left;
+	vertical-align: top;
+}
+
+footer {
+	clear:both;
+}
+
+
+ h2 {
+	font: 26px 'LeagueGothicRegular', Arial, sans-serif;
+	text-transform:uppercase;
+	margin:0;
+}
+
+ h3 {
+	font: 18px 'LeagueGothicRegular', Arial, sans-serif;
+	text-transform:uppercase;
+	margin:0;
+}
+
+
 footer {
 	border-top: solid;
 }
