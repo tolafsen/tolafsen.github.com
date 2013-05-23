@@ -47,7 +47,7 @@ table {
 below is all what I provided*/
 
 body {
-	font: 12px Arial;
+	font: .75em Arial;
 }
 
 #contentwrapper {
@@ -57,7 +57,7 @@ body {
 }
 
 h1 {
-	font: 80px 'LeagueGothicRegular', Arial, sans-serif;
+	font: 5em 'LeagueGothicRegular', Arial, sans-serif;
 	text-transform:uppercase;
 	margin: 0;
 	display: block;
@@ -80,7 +80,7 @@ header nav li {
 
 header {
 	border-bottom: solid;
-	margin-bottom: 25px;
+	margin-bottom: 2%;
 }
 
 .clear { 
@@ -126,13 +126,13 @@ footer {
 
 
  h2 {
-	font: 26px 'LeagueGothicRegular', Arial, sans-serif;
+	font: 1.625em 'LeagueGothicRegular', Arial, sans-serif;
 	text-transform:uppercase;
 	margin:0;
 }
 
  h3 {
-	font: 18px 'LeagueGothicRegular', Arial, sans-serif;
+	font: 1.125em 'LeagueGothicRegular', Arial, sans-serif;
 	text-transform:uppercase;
 	margin:0;
 }
